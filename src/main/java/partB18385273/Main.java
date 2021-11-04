@@ -1,20 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+// Darren Browne - 18385273
 package partB18385273;
 
-/**
- *
- * @author darrenbrowne
- */
-public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+public class Main {
+    // main to use the driverproject class
     public static void main(String[] args) {
-        // TODO code application logic here
         driverProject dp = new driverProject();
         dp.testAll();
     }
