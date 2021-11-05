@@ -1,6 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'jacoco'
 apply plugin: 'war'
+apply plugin: 'application'
+
+mainClassName = 'partB18385273.Main'
 
 repositories {
     mavenCentral()
